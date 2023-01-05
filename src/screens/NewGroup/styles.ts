@@ -1,5 +1,5 @@
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { UsersThree } from 'phosphor-react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import styled from "styled-components/native";
 
 export const Container = styled(SafeAreaView)`
@@ -17,5 +17,5 @@ export const Icon = styled(UsersThree).attrs(({ theme }) => ({
     size: 56,
     color: theme.COLORS.GREEN_700
 }))`
-  align-items: center;
+  align-self: center;
 `;
