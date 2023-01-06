@@ -3,7 +3,7 @@ import { TouchableOpacity } from "react-native";
 import styled, { css } from "styled-components/native";
 
 export const Container = styled(TouchableOpacity)`
-  width: 100%;
+  width: 380px;
   height: 90px;
 
   background-color: ${({ theme }) => theme.COLORS.GRAY_500};
@@ -24,7 +24,7 @@ export const Title = styled.Text`
    `}
 `;
 
-export const Icon =styled(UsersThree).attrs(({ theme }) => ({
+export const Icon = styled(UsersThree).attrs(({ theme }) => ({
     size: 32,
     color: theme.COLORS.GREEN_700,
     weight: 'fill'
